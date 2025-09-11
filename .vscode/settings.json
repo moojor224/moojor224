@@ -2,6 +2,8 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
+    // view git changes as tree
+    "scm.defaultViewMode": "tree",
     // appearance settings
     "window.zoomLevel": -1,
     "workbench.productIconTheme": "material-product-icons",
