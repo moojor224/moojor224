@@ -1,4 +1,31 @@
 {
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    // appearance settings
+    "window.zoomLevel": -1,
+    "workbench.productIconTheme": "material-product-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 24,
+    // enable foratting on save and auto save when editor focus changes
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+    // disable sticky scroll everywhere
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+    "workbench.tree.enableStickyScroll": false,
+    // prevent suggestions from butting in
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    // set tab size to 4 and disable auto tab size detection
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    // disable certain git popups
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    // set formatter to prettier
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // prettier formatting settings
     "prettier.arrowParens": "always",
     "prettier.embeddedLanguageFormatting": "off",
     "prettier.printWidth": 128,
