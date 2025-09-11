@@ -2,8 +2,9 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
-    // view git changes as tree
+    // source control/git settings
     "scm.defaultViewMode": "tree",
+    "git.autofetch": true,
     // appearance settings
     "window.zoomLevel": -1,
     "workbench.productIconTheme": "material-product-icons",
