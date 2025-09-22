@@ -28,6 +28,8 @@
     "git.confirmSync": false,
     // set formatter to prettier
     "editor.defaultFormatter": "esbenp.prettier-vscode",
+    // auto organize imports on save
+    "editor.codeActionsOnSave": { "source.organizeImports": "always" },
     // explicitly set each language's default formatter to override user settings
     "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
     "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
@@ -46,7 +48,7 @@
     // prettier formatting settings
     "prettier.arrowParens": "always",
     "prettier.embeddedLanguageFormatting": "off",
-    "prettier.printWidth": 128,
+    "prettier.printWidth": 100,
     "prettier.singleQuote": false,
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none"
