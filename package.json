@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "prettier": "prettier ./src/**/*.tsx ./src/**/*.ts ./src/**/*.jsx ./src/**/*.js ./src/**/*.css --write",
+    }
+}
