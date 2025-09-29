@@ -51,5 +51,7 @@
     "prettier.printWidth": 100,
     "prettier.singleQuote": false,
     "prettier.tabWidth": 4,
-    "prettier.trailingComma": "none"
+    "prettier.trailingComma": "none",
+    // disable built in github copilot features
+    "chat.disableAIFeatures": true
 }
